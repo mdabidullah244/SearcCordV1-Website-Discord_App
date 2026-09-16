@@ -1,0 +1,1423 @@
+html {
+    background-color: #fafafa ;
+    font-family: Comfortaa;
+    user-select: none;
+    transition: background-color, 0.5s;
+  }
+  
+  .top-container {
+    background-color: #fdfdfd;
+    position: fixed;
+    height: 650px;
+    width: 1200px;
+    left: 350px;
+    top: 200px;
+    border-radius: 10px;
+    user-select: none;
+    transition: background-color, 0.5s;
+    
+    &:hover {
+      background-color: #f6f6f6 
+    }
+  }
+  
+  .rose-top-pfp {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: -150px;
+    left: 75px;
+    border-radius: 100%;
+  }
+  
+  .rose-bottom-pfp {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: 230px;
+    left: -30px;
+    border-radius: 15%;
+  }
+  
+  .user-pfp-text {
+    position: fixed;
+    top: 285px;
+    left: 540px;
+    font-size: 30px;
+    opacity: 1;
+    transition: background-color, opacity, 0.5s;
+  }
+  
+  .user-info-icon {
+    position: fixed;
+    top: 420px;
+    left: 900px;
+    font-size: 50px;
+  }
+  
+  .rose-user-icon {
+    position: fixed;
+    top: 285px;
+    left: 540px;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity, 0.5s;
+  }
+  
+  .top-user-texts {
+    &:hover {
+      .user-pfp-text {
+        opacity: 0;
+      }
+      .rose-user-icon {
+        opacity: 1;
+      }
+    }
+  
+    
+  }
+  
+  .rose-title {
+    position: fixed;
+    top: 430px;
+    left: 980px;
+    font-size: 50px;
+    transition: background-color, 0.5s;
+  }
+  
+  .rose-description {
+    position: fixed;
+    top: 500px;
+    left: 985px;
+    font-size: 25px;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    transition: background-color, 0.5s;
+  }
+  
+  .invite-rose-button {
+    background-color: #fdfdfd;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 30px;
+    position: fixed;
+    top: 660px;
+    left: 980px;
+    cursor: pointer;
+    transition: background-color, 0.5s;
+    &:hover {
+      background-color: #f6f6f6;
+    }
+  }
+  
+  .invite-rose-server-button {
+    background-color: #fdfdfd;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 30px;
+    position: fixed;
+    top: 660px;
+    left: 1250px;
+    cursor: pointer;
+    transition: background-color, 0.5s;
+    &:hover {
+      background-color: #f6f6f6;
+    }
+  }
+  
+  .rose-server-invite-text {
+    transition: background-color, 0.5s;
+    color: black;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .rose-invite-text {
+    transition: background-color, 0.5s;
+    color: black;
+  }
+  
+  .light-mode-button {
+    border: 0px;
+    background-color: transparent;
+    position: fixed;
+    top: 290px;
+    left: 1400px;
+    visibility: hidden;
+    opacity: 1;
+  }
+  
+  .dark-mode-button {
+    border: 0px;
+    background-color: transparent;
+    position: fixed;
+    top: 290px;
+    left: 1450px;  
+    opacity: 1;
+  }
+  
+  .light-mode-img {
+    height: 30px;
+    width: 30px;
+    
+  }
+  
+  .dark-mode-img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  @media only screen and (max-device-width: 1440px) {
+  
+    html {
+      background-color: #fafafa ;
+      font-family: Comfortaa;
+      user-select: none;
+      transition: background-color, 0.5s;
+    }
+  
+    .top-container {
+      background-color: #fdfdfd;
+      position: fixed;
+      height: 450px;
+      width: 850px;
+      left: 300px;
+      top: 150px;
+      border-radius: 10px;
+      user-select: none;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6 
+      }
+    }
+  
+    .rose-top-pfp {
+      position: relative;
+      height: 70px;
+      width: 70px;
+      top: -120px;
+      left: 60px;
+      border-radius: 100%;
+    }
+  
+    .rose-bottom-pfp {
+      position: relative;
+      height: 230px;
+      width: 230px;
+      top: 180px;
+      left: -15px;
+      border-radius: 15%;
+    }
+  
+    .user-pfp-text {
+      position: fixed;
+      top: 215px;
+      left: 445px;
+      font-size: 25px;
+      opacity: 1;
+      transition: background-color, opacity, 0.5s;
+    }
+  
+    .user-info-icon {
+      position: fixed;
+      top: 320px;
+      left: 700px;
+      font-size: 40px;
+    }
+  
+    .rose-user-icon {
+      position: fixed;
+      top: 210px;
+      left: 445px;
+      font-size: 25px;
+      opacity: 0;
+      transition: opacity, 0.5s;
+    }
+  
+    .top-user-texts {
+      &:hover {
+        .user-pfp-text {
+          opacity: 0;
+        }
+        .rose-user-icon {
+          opacity: 1;
+        }
+      }
+  
+  
+    }
+  
+    .rose-title {
+      position: fixed;
+      top: 325px;
+      left: 765px;
+      font-size: 40px;
+      transition: background-color, 0.5s;
+    }
+  
+    .rose-description {
+      position: fixed;
+      top: 400px;
+      left: 770px;
+      font-size: 15px;
+      inline-size: 300px;
+      overflow-wrap: break-word;
+      transition: background-color, 0.5s;
+    }
+  
+    .invite-rose-button {
+      background-color: #fdfdfd;
+      padding: 15px 15px;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      font-size: 20px;
+      position: fixed;
+      top: 500px;
+      left: 770px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .invite-rose-server-button {
+      background-color: #fdfdfd;
+      padding: 15px 15px;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      font-size: 20px;
+      position: fixed;
+      top: 500px;
+      left: 950px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .rose-server-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    .rose-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    .light-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 210px;
+      left: 1000px;
+      visibility: hidden;
+      opacity: 1;
+    }
+  
+    .dark-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 210px;
+      left: 1050px;  
+      opacity: 1;
+    }
+  
+    .light-mode-img {
+      height: 30px;
+      width: 30px;
+  
+    }
+  
+    .dark-mode-img {
+      height: 30px;
+      width: 30px;
+    }
+    
+  }
+  
+  @media only screen and (min-device-width: 2560px) {
+  
+    html {
+      background-color: #fafafa ;
+      font-family: Comfortaa;
+      user-select: none;
+      transition: background-color, 0.5s;
+    }
+  
+    .top-container {
+      background-color: #fdfdfd;
+      position: fixed;
+      height: 800px;
+      width: 1500px;
+      left: 500px;
+      top: 300px;
+      border-radius: 10px;
+      user-select: none;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6 
+      }
+    }
+  
+    .rose-top-pfp {
+      position: relative;
+      height: 150px;
+      width: 150px;
+      top: -60px;
+      left: 60px;
+      border-radius: 100%;
+    }
+  
+    .rose-bottom-pfp {
+      position: relative;
+      height: 300px;
+      width: 300px;
+      top: 350px;
+      left: -100px;
+      border-radius: 15%;
+    }
+  
+    .user-pfp-text {
+      position: fixed;
+      top: 420px;
+      left: 750px;
+      font-size: 50px;
+      opacity: 1;
+      transition: background-color, opacity, 0.5s;
+    }
+  
+    .user-info-icon {
+      position: fixed;
+      top: 640px;
+      left: 950px;
+      font-size: 70px;
+    }
+  
+    .rose-user-icon {
+      position: fixed;
+      top: 420px;
+      left: 750px;
+      font-size: 50px;
+      opacity: 0;
+      transition: opacity, 0.5s;
+    }
+  
+    .top-user-texts {
+      &:hover {
+        .user-pfp-text {
+          opacity: 0;
+        }
+        .rose-user-icon {
+          opacity: 1;
+        }
+      }
+  
+  
+    }
+  
+    .rose-title {
+      position: fixed;
+      top: 640px;
+      left: 1050px;
+      font-size: 70px;
+      transition: background-color, 0.5s;
+    }
+  
+    .rose-description {
+      position: fixed;
+      top: 750px;
+      left: 1050px;
+      font-size: 35px;
+      inline-size: 800px;
+      overflow-wrap: break-word;
+      transition: background-color, 0.5s;
+    }
+  
+    .invite-rose-button {
+      background-color: #fdfdfd;
+      padding: 15px 15px;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      font-size: 40px;
+      position: fixed;
+      top: 950px;
+      left: 1050px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .invite-rose-server-button {
+      background-color: #fdfdfd;
+      padding: 15px 15px;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      font-size: 40px;
+      position: fixed;
+      top: 950px;
+      left: 1400px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .rose-server-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    .rose-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    .light-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 415px;
+      left: 1730px; 
+      visibility: hidden;
+      opacity: 1;
+    }
+  
+    .dark-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 415px;
+      left: 1800px;  
+      opacity: 1;
+    }
+  
+    .light-mode-img {
+      height: 50px;
+      width: 50px;
+  
+    }
+  
+    .dark-mode-img {
+      height: 50px;
+      width: 50px;
+    }
+  
+  }
+  
+  @media only screen and (max-device-width: 375px) {
+    html {
+      background-color: #fafafa ;
+      font-family: Comfortaa;
+      user-select: none;
+      transition: background-color, 0.5s;
+    }
+  
+    .top-container {
+      background-color: #fdfdfd;
+      position: fixed;
+      height: 200px;
+      width: 300px;
+      left: 40px;
+      top: 250px;
+      border-radius: 10px;
+      user-select: none;
+      transition: background-color, 0.5s;
+  
+      &:hover {
+        background-color: #f6f6f6 
+      }
+    }
+  
+    .rose-top-pfp {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      top: -30px;
+      left: 30px;
+      border-radius: 100%;
+    }
+  
+    .rose-bottom-pfp {
+      position: relative;
+      height: 100px;
+      width: 100px;
+      top: 80px;
+      left: -15px;
+      border-radius: 15%;
+    }
+  
+    .user-pfp-text {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 1;
+      transition: background-color, opacity, 0.5s;
+    }
+  
+    .user-info-icon {
+      position: fixed;
+      top: 327px;
+      left: 180px;
+      font-size: 15px;
+    }
+  
+    .rose-user-icon {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 0;
+      transition: opacity, 0.5s;
+    }
+  
+    .top-user-texts {
+      &:hover {
+        .user-pfp-text {
+          opacity: 0;
+        }
+        .rose-user-icon {
+          opacity: 1;
+        }
+      }
+  
+  
+    }
+  
+    .rose-title {
+      position: fixed;
+      top: 327px;
+      left: 200px;
+      font-size: 17px;
+      transition: background-color, 0.5s;
+    }
+  
+    .rose-description {
+      position: fixed;
+      top: 350px;
+      left: 200px;
+      font-size: 8px;
+      inline-size: 130px;
+      overflow-wrap: break-word;
+      transition: background-color, 0.5s;
+    }
+  
+    .invite-rose-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 200px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .invite-rose-server-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 260px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .rose-server-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    .rose-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    .light-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 280px; 
+      visibility: hidden;
+      opacity: 1;
+    }
+  
+    .dark-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 300px;  
+      opacity: 1;
+    }
+  
+    .light-mode-img {
+      height: 15px;
+      width: 15px;
+  
+    }
+  
+    .dark-mode-img {
+      height: 15px;
+      width: 15px;
+    }
+  
+  }
+  
+  @media only screen and (max-device-width: 390px) {
+    html {
+      background-color: #fafafa ;
+      font-family: Comfortaa;
+      user-select: none;
+      transition: background-color, 0.5s;
+    }
+  
+    .top-container {
+      background-color: #fdfdfd;
+      position: fixed;
+      height: 200px;
+      width: 300px;
+      left: 40px;
+      top: 250px;
+      border-radius: 10px;
+      user-select: none;
+      transition: background-color, 0.5s;
+  
+      &:hover {
+        background-color: #f6f6f6 
+      }
+    }
+  
+    .rose-top-pfp {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      top: -30px;
+      left: 30px;
+      border-radius: 100%;
+    }
+  
+    .rose-bottom-pfp {
+      position: relative;
+      height: 100px;
+      width: 100px;
+      top: 80px;
+      left: -15px;
+      border-radius: 15%;
+    }
+  
+    .user-pfp-text {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 1;
+      transition: background-color, opacity, 0.5s;
+    }
+  
+    .user-info-icon {
+      position: fixed;
+      top: 327px;
+      left: 180px;
+      font-size: 15px;
+    }
+  
+    .rose-user-icon {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 0;
+      transition: opacity, 0.5s;
+    }
+  
+    .top-user-texts {
+      &:hover {
+        .user-pfp-text {
+          opacity: 0;
+        }
+        .rose-user-icon {
+          opacity: 1;
+        }
+      }
+  
+  
+    }
+  
+    .rose-title {
+      position: fixed;
+      top: 327px;
+      left: 200px;
+      font-size: 17px;
+      transition: background-color, 0.5s;
+    }
+  
+    .rose-description {
+      position: fixed;
+      top: 350px;
+      left: 200px;
+      font-size: 8px;
+      inline-size: 130px;
+      overflow-wrap: break-word;
+      transition: background-color, 0.5s;
+    }
+  
+    .invite-rose-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 200px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .invite-rose-server-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 260px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .rose-server-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    .rose-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    .light-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 280px; 
+      visibility: hidden;
+      opacity: 1;
+    }
+  
+    .dark-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 300px;  
+      opacity: 1;
+    }
+  
+    .light-mode-img {
+      height: 15px;
+      width: 15px;
+  
+    }
+  
+    .dark-mode-img {
+      height: 15px;
+      width: 15px;
+    }
+  }
+  
+  @media only screen and (max-device-width: 428px) {
+    html {
+      background-color: #fafafa ;
+      font-family: Comfortaa;
+      user-select: none;
+      transition: background-color, 0.5s;
+    }
+  
+    .top-container {
+      background-color: #fdfdfd;
+      position: fixed;
+      height: 200px;
+      width: 300px;
+      left: 40px;
+      top: 250px;
+      border-radius: 10px;
+      user-select: none;
+      transition: background-color, 0.5s;
+  
+      &:hover {
+        background-color: #f6f6f6 
+      }
+    }
+  
+    .rose-top-pfp {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      top: -30px;
+      left: 30px;
+      border-radius: 100%;
+    }
+  
+    .rose-bottom-pfp {
+      position: relative;
+      height: 100px;
+      width: 100px;
+      top: 80px;
+      left: -15px;
+      border-radius: 15%;
+    }
+  
+    .user-pfp-text {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 1;
+      transition: background-color, opacity, 0.5s;
+    }
+  
+    .user-info-icon {
+      position: fixed;
+      top: 327px;
+      left: 180px;
+      font-size: 15px;
+    }
+  
+    .rose-user-icon {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 0;
+      transition: opacity, 0.5s;
+    }
+  
+    .top-user-texts {
+      &:hover {
+        .user-pfp-text {
+          opacity: 0;
+        }
+        .rose-user-icon {
+          opacity: 1;
+        }
+      }
+  
+  
+    }
+  
+    .rose-title {
+      position: fixed;
+      top: 327px;
+      left: 200px;
+      font-size: 17px;
+      transition: background-color, 0.5s;
+    }
+  
+    .rose-description {
+      position: fixed;
+      top: 350px;
+      left: 200px;
+      font-size: 8px;
+      inline-size: 130px;
+      overflow-wrap: break-word;
+      transition: background-color, 0.5s;
+    }
+  
+    .invite-rose-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 200px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .invite-rose-server-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 260px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .rose-server-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    .rose-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    .light-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 280px; 
+      visibility: hidden;
+      opacity: 1;
+    }
+  
+    .dark-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 300px;  
+      opacity: 1;
+    }
+  
+    .light-mode-img {
+      height: 15px;
+      width: 15px;
+  
+    }
+  
+    .dark-mode-img {
+      height: 15px;
+      width: 15px;
+    }
+  }
+  @media only screen and (max-device-width: 393px) {
+    html {
+      background-color: #fafafa ;
+      font-family: Comfortaa;
+      user-select: none;
+      transition: background-color, 0.5s;
+    }
+  
+    .top-container {
+      background-color: #fdfdfd;
+      position: fixed;
+      height: 200px;
+      width: 300px;
+      left: 40px;
+      top: 250px;
+      border-radius: 10px;
+      user-select: none;
+      transition: background-color, 0.5s;
+  
+      &:hover {
+        background-color: #f6f6f6 
+      }
+    }
+  
+    .rose-top-pfp {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      top: -30px;
+      left: 30px;
+      border-radius: 100%;
+    }
+  
+    .rose-bottom-pfp {
+      position: relative;
+      height: 100px;
+      width: 100px;
+      top: 80px;
+      left: -15px;
+      border-radius: 15%;
+    }
+  
+    .user-pfp-text {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 1;
+      transition: background-color, opacity, 0.5s;
+    }
+  
+    .user-info-icon {
+      position: fixed;
+      top: 327px;
+      left: 180px;
+      font-size: 15px;
+    }
+  
+    .rose-user-icon {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 0;
+      transition: opacity, 0.5s;
+    }
+  
+    .top-user-texts {
+      &:hover {
+        .user-pfp-text {
+          opacity: 0;
+        }
+        .rose-user-icon {
+          opacity: 1;
+        }
+      }
+  
+  
+    }
+  
+    .rose-title {
+      position: fixed;
+      top: 327px;
+      left: 200px;
+      font-size: 17px;
+      transition: background-color, 0.5s;
+    }
+  
+    .rose-description {
+      position: fixed;
+      top: 350px;
+      left: 200px;
+      font-size: 8px;
+      inline-size: 130px;
+      overflow-wrap: break-word;
+      transition: background-color, 0.5s;
+    }
+  
+    .invite-rose-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 200px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .invite-rose-server-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 260px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .rose-server-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    .rose-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    .light-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 280px; 
+      visibility: hidden;
+      opacity: 1;
+    }
+  
+    .dark-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 300px;  
+      opacity: 1;
+    }
+  
+    .light-mode-img {
+      height: 15px;
+      width: 15px;
+  
+    }
+  
+    .dark-mode-img {
+      height: 15px;
+      width: 15px;
+    }
+  }
+  
+  @media only screen and (max-device-width: 430px) {
+    html {
+      background-color: #fafafa ;
+      font-family: Comfortaa;
+      user-select: none;
+      transition: background-color, 0.5s;
+    }
+  
+    .top-container {
+      background-color: #fdfdfd;
+      position: fixed;
+      height: 200px;
+      width: 300px;
+      left: 40px;
+      top: 250px;
+      border-radius: 10px;
+      user-select: none;
+      transition: background-color, 0.5s;
+  
+      &:hover {
+        background-color: #f6f6f6 
+      }
+    }
+  
+    .rose-top-pfp {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      top: -30px;
+      left: 30px;
+      border-radius: 100%;
+    }
+  
+    .rose-bottom-pfp {
+      position: relative;
+      height: 100px;
+      width: 100px;
+      top: 80px;
+      left: -15px;
+      border-radius: 15%;
+    }
+  
+    .user-pfp-text {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 1;
+      transition: background-color, opacity, 0.5s;
+    }
+  
+    .user-info-icon {
+      position: fixed;
+      top: 327px;
+      left: 180px;
+      font-size: 15px;
+    }
+  
+    .rose-user-icon {
+      position: fixed;
+      top: 290px;
+      left: 120px;
+      font-size: 15px;
+      opacity: 0;
+      transition: opacity, 0.5s;
+    }
+  
+    .top-user-texts {
+      &:hover {
+        .user-pfp-text {
+          opacity: 0;
+        }
+        .rose-user-icon {
+          opacity: 1;
+        }
+      }
+  
+  
+    }
+  
+    .rose-title {
+      position: fixed;
+      top: 327px;
+      left: 200px;
+      font-size: 17px;
+      transition: background-color, 0.5s;
+    }
+  
+    .rose-description {
+      position: fixed;
+      top: 350px;
+      left: 200px;
+      font-size: 8px;
+      inline-size: 130px;
+      overflow-wrap: break-word;
+      transition: background-color, 0.5s;
+    }
+  
+    .invite-rose-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 200px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .invite-rose-server-button {
+      background-color: #fdfdfd;
+      padding: 5px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 8px;
+      position: fixed;
+      top: 420px;
+      left: 260px;
+      cursor: pointer;
+      transition: background-color, 0.5s;
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  
+    .rose-server-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    .rose-invite-text {
+      transition: background-color, 0.5s;
+      color: black;
+    }
+  
+    .light-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 280px; 
+      visibility: hidden;
+      opacity: 1;
+    }
+  
+    .dark-mode-button {
+      border: 0px;
+      background-color: transparent;
+      position: fixed;
+      top: 287px;
+      left: 300px;  
+      opacity: 1;
+    }
+  
+    .light-mode-img {
+      height: 15px;
+      width: 15px;
+  
+    }
+  
+    .dark-mode-img {
+      height: 15px;
+      width: 15px;
+    }
+  }
